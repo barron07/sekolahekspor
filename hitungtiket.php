@@ -13,6 +13,7 @@ $diskon = patokDiskon($jum_tiket, $hargatotal);
 echo "Total Harga Tiket = " . $hargatotal, "<br>";
 $hargaakhir = $hargatotal - $diskon;
 echo "Total Bayar = " . $hargaakhir, "<br>";
+echo "<a href='formtiket.php'>Kembali</a>";
 
 function patokHarga($tujuan)
 {
